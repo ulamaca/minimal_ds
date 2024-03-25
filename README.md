@@ -5,10 +5,14 @@ an easy script to build up Data Science development envronment. Scripts are avai
      python3 minimal_ds_py.py
 ```
 but unfortunately, it did not work... (this is done by GPT3.5)
+
 2. .csh
+
 3. .sh
-    + 1. execute . ./minimal_ds_sh.sh
-    + 1.1 the . is necessary!
+```
+. ./minimal_ds_sh.sh 
+```
+please note that the . is necessary!
 
 ## TODO
 1. zsh and more setup to make terminal more customized and DS-friendly
