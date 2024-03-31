@@ -24,6 +24,7 @@ install_packages() {
     pip install pandas==1.3.3
     pip install seaborn==0.11.2
     pip install scikit-learn==0.24.2
+    pip install yapf==0.40.2
 }
 
 # Function to install PyTorch (CPU or GPU version)
