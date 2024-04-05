@@ -32,9 +32,9 @@ install_pytorch() {
     venv_name=$1
     use_gpu=$2
     if [ $use_gpu -eq 1 ]; then
-        pip install torch==1.10.0+cu113
+        pip install torch==1.13.1+cu117
     else
-        pip install torch==1.10.0
+        pip install torch==1.13.1+cpu
     fi
 }
 
